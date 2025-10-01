@@ -4,38 +4,29 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    title: "CareVia Hospital Website",
+    description: "Developed a responsive web application to manage daily tasks efficiently, allowing users to add, edit, delete, and mark tasks as complete.",
+    image: "/img/cavia.png",
+    tags: ["HTML/CSS",  "Express.JS", "JS", "MongoDB"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/vaishnavi230204/CareVia-Hospital-Website",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Task-Manager",
     description:
       "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    image: "/img/todo.png",
+    tags: ["HTML/CSS", "Tailwind", "React.JS","LocalStorage"],
+    demoUrl: "https://task-manager-nms7.vercel.app/",
+    githubUrl: "https://github.com/vaishnavi230204/Task-Manager",
   },
-  {
-    id: 3,
-    title: "E-commerce Platform",
-    description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
+ 
 ];
 
 const Project = () => {
   return (
-     <section id="projects" className="py-24 px-4 relative">
+     <section id="projects" className="py-24 px-4 flex justify-center items-center relative">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
           {" "}
@@ -47,7 +38,7 @@ const Project = () => {
           crafted with attention to detail, performance, and user experience.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="justify-items-center grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-8">
           {projects.map((project, key) => (
             <div
               key={key}
