@@ -6,7 +6,7 @@ const projects = [
     id: 1,
     title: "CareVia Hospital Website",
     description: "Developed a responsive web application to manage daily tasks efficiently, allowing users to add, edit, delete, and mark tasks as complete.",
-    image: "/img/cavia.png",
+    image: "img/cavia.png",
     tags: ["HTML/CSS",  "Express.JS", "JS", "MongoDB"],
     demoUrl: "#",
     githubUrl: "https://github.com/vaishnavi230204/CareVia-Hospital-Website",
@@ -16,7 +16,7 @@ const projects = [
     title: "Task-Manager",
     description:
       "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/img/todo.png",
+    image: "img/todo.png",
     tags: ["HTML/CSS", "Tailwind", "React.JS","LocalStorage"],
     demoUrl: "https://task-manager-nms7.vercel.app/",
     githubUrl: "https://github.com/vaishnavi230204/Task-Manager",
